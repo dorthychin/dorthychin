@@ -158,9 +158,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(14,22,40,0.9
 .loc-table .lbl{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:500;width:65px;padding-right:1rem;padding-top:.75rem}
 .loc-table .val{font-size:13.5px;color:rgba(255,255,255,.55);font-weight:300;line-height:1.7}
 .loc-table .val a{color:var(--gold-l);text-decoration:none}
-.hrs-clean{display:flex;flex-direction:column;gap:2px}
-.hrs-row{display:flex;justify-content:space-between;font-size:13px;color:rgba(255,255,255,.5);font-weight:300;max-width:280px}
-.hrs-day{color:rgba(255,255,255,.38);font-size:12px}
+.hrs-clean{display:flex;flex-direction:column;gap:4px}
+.hrs-row{display:grid;grid-template-columns:90px 1fr;gap:.5rem;font-size:13px;color:rgba(255,255,255,.5);font-weight:300}
+.hrs-day{color:rgba(255,255,255,.35);font-size:12px}
+@media(max-width:860px){
+  .hrs-row{grid-template-columns:80px 1fr}
+}
 
 /* ── FOR PATIENTS HUB ── */
 .patients-section{background:var(--white)}
@@ -650,12 +653,12 @@ footer{background:var(--navy-d);padding:4rem 2.5rem 2rem;border-top:1px solid rg
       </div>
     </div>
     <div class="forms-grid">
-      <a href="https://covinavalleyurology.com/new-patient-forms/" target="_blank" class="form-card"><div class="form-card-icon">📋</div><div><div class="form-card-name">New Patient Packet</div><div class="form-card-sub">Complete intake forms</div><div class="form-card-link">Download →</div></div></a>
-      <a href="https://covinavalleyurology.com/new-patient-forms/" target="_blank" class="form-card"><div class="form-card-icon">📄</div><div><div class="form-card-name">Medical History</div><div class="form-card-sub">Past medical &amp; surgical history</div><div class="form-card-link">Download →</div></div></a>
-      <a href="https://covinavalleyurology.com/new-patient-forms/" target="_blank" class="form-card"><div class="form-card-icon">🔒</div><div><div class="form-card-name">HIPAA Privacy Notice</div><div class="form-card-sub">Patient privacy acknowledgment</div><div class="form-card-link">Download →</div></div></a>
-      <a href="https://covinavalleyurology.com/new-patient-forms/" target="_blank" class="form-card"><div class="form-card-icon">💊</div><div><div class="form-card-name">Medication List</div><div class="form-card-sub">Current medications &amp; allergies</div><div class="form-card-link">Download →</div></div></a>
-      <a href="https://covinavalleyurology.com/new-patient-forms/" target="_blank" class="form-card"><div class="form-card-icon">📝</div><div><div class="form-card-name">Insurance Authorization</div><div class="form-card-sub">HMO referral &amp; authorization</div><div class="form-card-link">Download →</div></div></a>
-      <a href="https://covinavalleyurology.com/new-patient-forms/" target="_blank" class="form-card"><div class="form-card-icon">⚕️</div><div><div class="form-card-name">Consent for Treatment</div><div class="form-card-sub">Treatment consent form</div><div class="form-card-link">Download →</div></div></a>
+      <a href="https://covinavalleyurology.com/wp-content/uploads/2013/02/New-Patient-Packet.pdf" target="_blank" class="form-card"><div class="form-card-icon">📋</div><div><div class="form-card-name">New Patient Packet</div><div class="form-card-sub">Complete intake forms</div><div class="form-card-link">Download →</div></div></a>
+      <a href="https://covinavalleyurology.com/wp-content/uploads/2013/02/Medical-History.pdf" target="_blank" class="form-card"><div class="form-card-icon">📄</div><div><div class="form-card-name">Medical History</div><div class="form-card-sub">Past medical &amp; surgical history</div><div class="form-card-link">Download →</div></div></a>
+      <a href="https://covinavalleyurology.com/wp-content/uploads/2013/02/HIPAA-Privacy-Notice.pdf" target="_blank" class="form-card"><div class="form-card-icon">🔒</div><div><div class="form-card-name">HIPAA Privacy Notice</div><div class="form-card-sub">Patient privacy acknowledgment</div><div class="form-card-link">Download →</div></div></a>
+      <a href="https://covinavalleyurology.com/wp-content/uploads/2013/02/Medication-List.pdf" target="_blank" class="form-card"><div class="form-card-icon">💊</div><div><div class="form-card-name">Medication List</div><div class="form-card-sub">Current medications &amp; allergies</div><div class="form-card-link">Download →</div></div></a>
+      <a href="https://covinavalleyurology.com/wp-content/uploads/2013/02/Insurance-Authorization.pdf" target="_blank" class="form-card"><div class="form-card-icon">📝</div><div><div class="form-card-name">Insurance Authorization</div><div class="form-card-sub">HMO referral &amp; authorization</div><div class="form-card-link">Download →</div></div></a>
+      <a href="https://covinavalleyurology.com/wp-content/uploads/2013/02/Consent-for-Treatment.pdf" target="_blank" class="form-card"><div class="form-card-icon">⚕️</div><div><div class="form-card-name">Consent for Treatment</div><div class="form-card-sub">Treatment consent form</div><div class="form-card-link">Download →</div></div></a>
     </div>
   </div></div>
 </div>
